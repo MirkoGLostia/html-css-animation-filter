@@ -80,3 +80,16 @@
 .ex-7-img:hover {
     filter: sepia(0.8) blur(2px);
 }
+
+
+
+/* exercise 8 */
+
+.ex-8-img {
+    transition: all 3s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(0.8) contrast(100%) ;
+    border-radius: 5%;
+}
