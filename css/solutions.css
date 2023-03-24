@@ -110,3 +110,20 @@
 .ex-9-img:active {
     transform: rotate(0.5turn) scale(0.5);
 }
+
+
+
+/* exercise 10 */
+
+.ex-10-icon {
+    animation: rotation 3s linear infinite reverse;
+}
+
+@keyframes rotation {
+    50% {
+        transform: rotate(0.5turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
