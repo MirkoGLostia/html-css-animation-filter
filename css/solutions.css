@@ -127,3 +127,20 @@
         transform: rotate(1turn);
     }
 }
+
+
+
+/* exercise 11 */
+
+.ex-11-icon:hover {
+    animation: rotation 3s linear;
+}
+
+@keyframes rotation {
+    50% {
+        transform: rotate(0.5turn);
+    }
+    90% {
+        transform: rotate(0.9turn);
+    }
+}
