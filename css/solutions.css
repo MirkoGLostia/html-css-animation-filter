@@ -42,3 +42,23 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
+
+
+/* exercise 5 */
+
+.ex-5-square {
+    transition: all 3s;
+}
+
+.ex-5-square:hover {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+}
+
+.ex-5-square:active {
+    height: 20px;
+    width: 20px;
+    margin: 40px;
+}
