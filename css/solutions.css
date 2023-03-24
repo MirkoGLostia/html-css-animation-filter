@@ -151,10 +151,10 @@
 /* exercise 12 */
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: white-top 2s linear;
+    animation: white-top-12 2s linear;
 }
 
-@keyframes white-top {
+@keyframes white-top-12 {
     0% {
         left: 10%;
     }
@@ -167,10 +167,10 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: white-bot 2s linear;
+    animation: white-bot-12 2s linear;
 }
 
-@keyframes white-bot {
+@keyframes white-bot-12 {
     0% {
         right: 20%;
     }
@@ -179,5 +179,72 @@
     }
     100% {
         right: 20%;
+    }
+}
+
+
+
+
+/* exercise 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: white-top-13 5s linear;
+}
+
+@keyframes white-top-13 {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    25% {
+        left: 80%;
+        top: -10px;
+    }
+    45%{
+        left: 80%;
+        top: 50px;
+    }
+    70%{
+        left: 0%;
+        top: 50px;
+    }
+    90%{
+        left: -10%;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: white-bot-13 5s linear;
+}
+
+@keyframes white-bot-13 {
+    0% {
+        right: 10%;
+        bottom: -10px;
+    }
+    25% {
+        right: 80%;
+        bottom: -10px;
+    }
+    45%{
+        right: 80%;
+        bottom: 50px;
+    }
+    70%{
+        right: 0%;
+        bottom: 50px;
+    }
+    90%{
+        right: -10%;
+        bottom: -10px;
+    }
+    100% {
+        right: 10%;
+        bottom: -10px;
     }
 }
