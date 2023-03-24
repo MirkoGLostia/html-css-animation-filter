@@ -93,3 +93,20 @@
     filter: sepia(0.8) contrast(100%) ;
     border-radius: 5%;
 }
+
+
+/* exercise 9 */
+
+.ex-9-img {
+    transition: all 3s;
+}
+
+.ex-9-img:hover {
+    filter: sepia(0.8) contrast(100%) ;
+    border-radius: 5%;
+    transform: scale(2);
+}
+
+.ex-9-img:active {
+    transform: rotate(0.5turn) scale(0.5);
+}
