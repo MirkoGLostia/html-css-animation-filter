@@ -144,3 +144,40 @@
         transform: rotate(0.9turn);
     }
 }
+
+
+
+
+/* exercise 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: white-top 2s linear;
+}
+
+@keyframes white-top {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 70%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: white-bot 2s linear;
+}
+
+@keyframes white-bot {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 70%;
+    }
+    100% {
+        right: 20%;
+    }
+}
